@@ -1,6 +1,6 @@
 # Device info
-ro.product.odm.model=CPH2581
-ro.product.odm.name=CPH2581EEA
+ro.product.odm.model=CPH2769
+ro.product.odm.name=CPH2769EEA
 ro.vendor.oplus.radio.sar_regionmark=EUEX
 ro.vendor.oplus.regionmark=EUEX
 
