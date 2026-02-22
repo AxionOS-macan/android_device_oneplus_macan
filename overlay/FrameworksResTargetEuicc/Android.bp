@@ -10,7 +10,7 @@ runtime_resource_overlay {
 }
 
 runtime_resource_overlay {
-    name: "FrameworksResEuicc_NA",
-    manifest: "AndroidManifest_NA.xml",
+    name: "FrameworksResEuicc_ROW",
+    manifest: "AndroidManifest_ROW.xml",
     vendor: true,
 }

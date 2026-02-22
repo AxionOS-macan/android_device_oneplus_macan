@@ -9,5 +9,5 @@
              android:isStatic="true"
              android:priority="250"
              android:requiredSystemPropertyName="ro.boot.prjname,ro.boot.hardware.revision"
-             android:requiredSystemPropertyValue="22877,NA" />
+             android:requiredSystemPropertyValue="24877,ROW" />
 </manifest>
