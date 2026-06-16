@@ -23,8 +23,8 @@ PRODUCT_MODEL := CPH2767
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1773151842817 release-keys" \
-    BuildFingerprint=OnePlus/CPH2767IN/OP612DL1:16/BP2A.250605.015/B.R4T3.3a1658b-172d9ef-176ba9e:user/release-keys \
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1780676259386 release-keys" \
+    BuildFingerprint=OnePlus/CPH2767IN/OP612DL1:16/BP2A.250605.015/B.R4T3.4abf2bb-269311f-26d6a3c:user/release-keys \
     DeviceName=OP612DL1 \
     DeviceProduct=CPH2767 \
     SystemDevice=OP612DL1 \
