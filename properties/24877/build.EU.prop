@@ -6,3 +6,7 @@ ro.vendor.oplus.regionmark=EUEX
 
 # eSIM
 ro.vendor.oplus.radio.esim.feature=2
+
+# Key attestation
+ro.product.model_for_attestation=CPH2769
+ro.product.name_for_attestation=CPH2769EEA
