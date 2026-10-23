@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
     EuiccPolicyResTarget \
     FrameworksResEuicc_EU \
     FrameworksResEuicc_ROW \
+    NfcResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
