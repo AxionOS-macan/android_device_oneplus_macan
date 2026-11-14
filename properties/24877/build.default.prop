@@ -1,1 +1,4 @@
 import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
+
+# Widevine
+vendor.wv.oemcrypto.debug.enable_prov40=true
