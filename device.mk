@@ -43,11 +43,11 @@ PRODUCT_PACKAGES += \
     OPlusWifiResTarget
 
 # Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24877/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24877/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24877/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24877/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24877/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24877/build.ROW.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24877/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24877/build.default.prop
+REGIONAL_PROP_FILES := $(wildcard $(LOCAL_PATH)/properties/*/*.prop)
+
+PRODUCT_COPY_FILES += $(foreach f,$(REGIONAL_PROP_FILES), \
+    $(f):$(TARGET_COPY_OUT_ODM)/etc/$(patsubst $(LOCAL_PATH)/properties/%,%,$(f)) \
+    $(f):$(TARGET_COPY_OUT_RECOVERY)/root/vendor/odm/etc/$(patsubst $(LOCAL_PATH)/properties/%,%,$(f)))
 
 # Recovery
 $(call soong_config_set_bool,recovery,target_recovery_uses_qti_drm,true)
